@@ -1,1 +1,1 @@
-Ссылка: 
+Ссылка: https://m1keoo7.github.io/school-website/
