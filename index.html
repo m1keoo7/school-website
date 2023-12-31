@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="custom_main">
+<header class="custom_header">
+  <div class="logo">
+    <img src="images/image1.png" class="image_logo">
+    <div class="wrapper">
+    <span class="title">ГБОУ СОШ №655 Приморского района СПб</span>
+    <span class="subtitle">Электронная экологическая лаборатория: от школьного двора к чистому городу</span>
+      </div>
+  </div>
+  <div class="custom_header_input">
+    <label>
+      <input class="custom_input" placeholder="Введите"/>
+    </label>
+    <button class="custom_button">Найти</button>
+  </div>
+</header>
+  <div class="custom_navbar">
+    <ul class="custom_nav custom_nav-ul">
+      <li class="nav-li start">
+        <a title="О Комитете" href="/">О нас</a>
+      </li>
+      <li class="nav-li">
+        <a title="Деятельность Комитета" href="/">Метод кондитера</a>
+      </li>
+      <li class="nav-li">
+        <a title="Экологическая политика" href="/">Работа лаборатории</a>
+      </li>
+      <li class="nav-li">
+        <a title="Окружающая среда" href="/">Иследовательская деятельность учащихся</a>
+      </li>
+      <li class="nav-li end">
+        <a title="Опасные отходы" href="/">Новости</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="myCarousel" class="carousel slide mb-5 w-100" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active"
+           style="height: calc(100vh - 125px); background-image: url('images/image_blur_2_09_09_20.png'); background-position: center; background-size: cover;">
+        <img src="images/image-18-10-23-09-09-20.jpeg" class="d-block" alt="..."
+             style="margin: 0 auto; object-fit: contain; height: 100%;">
+        <div class="container d-flex align-items-center justify-content-center" style="padding: 0 20px;">
+          <div class="carousel-caption text-end">
+            <h4>Электронная экологическая лаборатория:</h4>
+            <p>от школьного двора к чистому городу</p>
+            <p><a class="btn btn-lg" style="background-color: #335078; color: white" href="#">Зарегистрироваться сейчас</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item" style="height: calc(100vh - 125px); background-image: url('images/image.blur_09_09_7png.png'); background-position: center; background-size: cover;">
+        <img src="images/image-18-10-23-09-09-7.jpeg" class="d-block" alt="..." style="margin: 0 auto; object-fit: contain; height: 100%;" >
+        <div class="container d-flex align-items-center justify-content-center" style="padding: 0 20px;">
+          <div class="carousel-caption text-end">
+            <h4>Пример заголовка 2</h4>
+            <p>Некоторый контент-заполнитель для второго слайда
+              карусели.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Узнать больше</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: calc(100vh - 125px); background-image: url('images/image_blur_09_09_8.png'); background-position: center; background-size: cover;">
+        <img src="images/image-18-10-23-09-09-8.jpeg" class="d-block" alt="..." style="margin: 0 auto; object-fit: contain; height: 100%;">
+        <div class="container d-flex align-items-center justify-content-center" style="padding: 0 20px;">
+          <div class="carousel-caption text-end">
+            <h4>Ещё один заголовок</h4>
+            <p>Некоторый типичный заполнитель для третьего слайда этой карусели.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Посмотреть галерею</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
