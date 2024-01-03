@@ -51,9 +51,9 @@
 }
 
 .custom_button {
-    max-width: 72px;
-    max-height: 50px;
+    background-color: #335078;
 }
+
 
 .custom_navbar {
     border-top: 4px solid #e2e1e1;
@@ -168,8 +168,4 @@
 
 .nav-li3.end {
     margin-right: 0;
-}
-
-.mb-5 {
-    margin-bottom: 0 !important;
 }
