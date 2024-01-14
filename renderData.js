@@ -1,4 +1,4 @@
-import content from "./api";
+import content from "./api/index.js";
 
 const box = document.querySelector("#custom_box");
 const nameContent = box.dataset.name_content;
