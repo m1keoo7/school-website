@@ -1,14 +1,15 @@
-import content from "./data/contents.js";
+import content from "./api";
 
 const box = document.querySelector("#custom_box");
 const nameContent = box.dataset.name_content;
+const inputDataName = `${nameContent}Content`;
 
-const inputData = content[`${nameContent}Content`];
+const inputData = content[inputDataName][inputDataName];
 
 if (Array.isArray(inputData)) {
-    const galleryItemTemplates = inputData.map(
-        (item) =>
-            `<div class="col">
+  const galleryItemTemplates = inputData.map(
+    (item) =>
+      `<div class="col">
       <div class="card shadow-sm">
         <img src=${item.path} width="100%" height="100%" alt="image"/>
         <div class="card-body">
@@ -21,8 +22,8 @@ if (Array.isArray(inputData)) {
           </div>
         </div>
       </div>
-    </div>`
-    );
+    </div>`,
+  );
 
-    box.insertAdjacentHTML("beforeend", galleryItemTemplates.join(""));
+  box.insertAdjacentHTML("beforeend", galleryItemTemplates.join(""));
 }
