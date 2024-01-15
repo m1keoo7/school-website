@@ -95,12 +95,10 @@
     height: 48px;
 }
 
-.custom_nav2 {
-    border-top: 8px solid #335078;
-}
 
 .custom_nav2 {
-    height: 161px;
+    height: 210px;
+    border-top: 8px solid #335078;
 }
 
 .image-fish {
@@ -112,7 +110,7 @@
     margin: 1px;
     text-align: center;
     background: #335078;
-    height: 161px;
+    height: 210px;
 }
 
 .custom_nav.custom_nav-ul2 {
