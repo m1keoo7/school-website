@@ -84,7 +84,7 @@
 }
 
 
-.nav-li>a {
+.nav-li > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +149,7 @@
     padding: 0;
 }
 
-.nav-li3>a {
+.nav-li3 > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,3 +167,38 @@
 .nav-li3.end {
     margin-right: 0;
 }
+
+
+.custom_table {
+    border: 1px solid black;
+    width: 70%;
+}
+
+.custom_table > thead > tr > th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.custom_table > tbody > tr > td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.start_td {
+    font-weight: bold;
+}
+
+#table1 tr td:nth-child(2) {
+    width: 25%;
+}
+
+#table3 tr td:nth-child(2) {
+    width: 20%;
+}
+
+#table2 tr td:nth-child(3) {
+    text-align: center;
+}
+
