@@ -6,7 +6,7 @@ const galleryContent = [
     path: "./images/image-18-10-23-09-09-1.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-2.jpeg",
+    path: "./images/image-18-10-23-09-09-5.jpeg",
   },
   {
     path: "./images/image-18-10-23-09-09-3.jpeg",
@@ -15,10 +15,10 @@ const galleryContent = [
     path: "./images/image-18-10-23-09-09-4.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-5.jpeg",
+    path: "./images/image-18-10-23-09-09-6.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-6.jpeg",
+    path: "./images/image-18-10-23-09-09-2.jpeg",
   },
   {
     path: "./images/image-18-10-23-09-09-7.jpeg",
@@ -39,7 +39,7 @@ const galleryContent = [
     path: "./images/image-18-10-23-09-09-12.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-13.jpeg",
+    path: "./images/image-18-10-23-09-09-21.jpeg",
   },
   {
     path: "./images/image-18-10-23-09-09-14.jpeg",
@@ -54,7 +54,7 @@ const galleryContent = [
     path: "./images/image-18-10-23-09-09-17.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-18.jpeg",
+    path: "./images/image-18-10-23-09-09-22.jpeg",
   },
   {
     path: "./images/image-18-10-23-09-09-19.jpeg",
@@ -63,10 +63,10 @@ const galleryContent = [
     path: "./images/image-18-10-23-09-09-20.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-21.jpeg",
+    path: "./images/image-18-10-23-09-09-13.jpeg",
   },
   {
-    path: "./images/image-18-10-23-09-09-22.jpeg",
+    path: "./images/image-18-10-23-09-09-18.jpeg",
   },
   {
     path: "./images/image-18-10-23-09-09-23.jpeg",
